@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/23201b1344.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/widescreen.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Edgeledger financial | Accounts</title>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-book-open"></i> Edge </span>Ledger</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+
+  <!-- header: Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        The Sky Is The Limit
+      </h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nostrum eaque necessitatibus autem sed?</p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- Section: what we do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What </span> We Do</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <h3>Investment Banking</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia eius minus veritatis?</p>
+        </div>
+        <div class="item">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <h3>Portfolio Management</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia eius minus veritatis?</p>
+        </div>
+        <div class="item">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <h3>Tax & Custodial</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia eius minus veritatis?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section who we are -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-content bg-dark p-2">
+      <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro quod fuga veritatis, expedita ipsam. Dolorem alias iste quibusdam. Dignissimos, esse perferendis. Ipsa, modi quos recusandae dolor aliquam odio architecto.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Mark Smith: CEO</li>
+        <li>Shannon Johnson: CFO</li>
+        <li>Rock John: Lead Accountant</li>
+        <li>Janet Williams: Investment Manager</li>
+        <li>Lara Jackson: Senior Accountant</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Client section -->
+  <section id="clients" class="py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+      <div class="items py-1">
+        <div><img src="./image_resources/logos/logo1.png" alt="client"></div>
+        <div><img src="./image_resources/logos/logo2.png" alt="client"></div>
+        <div><img src="./image_resources/logos/logo3.png" alt="client"></div>
+        <div><img src="./image_resources/logos/logo4.png" alt="client"></div>
+        <div><img src="./image_resources/logos/logo5.png" alt="client"></div>
+     </div>
+    </div>
+  </section>
+
+  <!-- Contact us Section -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="number" id="phone" name="phone" placeholder="Enter Phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="4" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class="btn btn-dark">
+      </form>
+    </div>
+    <div class="map"></div>
+  </section>
+  <script src="js/main.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD1bDXM14nFSX8dRbZV-nT_RuCA6RInUo&callback=initMap" async defer>
+  </script>
+</body>
+</html>
+
