@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin:0.75rem 0;
+}
+
+/* utility class */
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding: 0 2rem;
+  overflow:hidden;
+}
+
+.bg-light{
+  background:#f4f4f4;
+  color:#333;
+}
+
+.bg-dark{
+  background:#333;
+  color:#f4f4f4;
+}
+
+.bg-primary{
+  background:#93cb52;
+  color:#fff;
+}
+
+.p-1{ padding: 1rem;}
+.p-2{ padding: 2rem;}
+.p-3{ padding: 3rem;}
+
+.py-1{ padding: 1.5rem 0; }
+.py-2{ padding:2rem 0; }
+.py-3{ padding:3rem 0; }
+
+.text-primary{
+  color:#93cb52;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.l-heading{
+  font-size: 4rem;
+  margin-bottom:1.5rem;
+  line-height: 1.1;
+}
+
+.m-heading{
+  font-size:2rem;
+  margin-bottom:1rem;
+  line-height: 1.1;
+}
+
+.lead{
+  font-size: 1.2rem;
+  margin-bottom:2rem;
+}
+
+.btn{
+  display:inline-block;
+  background:#93cb52;
+  color:#f4f4f4;
+  padding:0.5rem 1.75rem;
+  border:none;
+  border-radius:5px;
+}
+.btn:hover{
+  background:#7a7;
+}
+.btn-dark{
+  background:#333;
+  color:#fff;
+  width:100%;
+}
+
+.list{
+  margin:0.5rem 0;
+  list-style: none;
+}
+.list li{
+  padding:0.5rem 0;
+  border-bottom:1px dotted #555;
+}
+
+/* Navbar */
+#navbar{
+  position:sticky;
+  top:0;
+  background:#333;
+  color:#f4f4f4;
+  display:flex;
+  justify-content: space-between;
+  padding:1rem;
+  z-index:1;
+}
+#navbar ul{
+  display:flex;
+  align-items:center;
+  list-style: none;            
+}
+#navbar ul li a{
+  padding: 0.75rem;
+  color:#f4f4f4;
+  margin:0 0.25rem;
+}
+#navbar ul li a:hover{
+  background:#93cb52;
+  border-radius:5px;
+}
+
+/* Showcase header*/
+#showcase{
+  background: #333 url('../image_resources/showcase.jpg') no-repeat center center/cover;
+  height:100vh;
+  color:#f4f4f4;
+}
+#showcase .showcase-content{
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content:center;
+  align-items: center;
+  height:100%;
+  padding:0 2rem;
+  /* overlay */
+  position: absolute;
+  top:55px;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0, 0.4);
+}
+
+/* Section what we do */
+#what .items{
+  display:flex;
+  line-height:1.2;
+  padding: 1rem;
+}
+
+#what .items .item{
+  text-align: center;
+  flex:1;
+  padding:1rem;
+}
+#what .items .item i{
+  margin-bottom:0.75rem;
+  background:#93cb52;
+  border-radius:50%;
+  padding:1rem;
+}
+
+/* Section: Who we are */
+#who{
+  display:flex;
+}
+#who div{
+  flex:1;
+}
+#who .who-img{
+  background:url('../image_resources/people.jpg') no-repeat center center/cover;
+}
+
+/* Our Clients Section */
+#clients .items{
+  display:flex;
+}
+#clients .items img{
+  display:block;
+  margin:auto;
+  width:60%;
+}
+
+/* Contact Section */
+#contact {
+  display:flex;
+}
+#contact .map,
+#contact .contact-form{
+  flex:1;
+}
+#contact .contact-form .form-group{
+  margin:0.75rem;
+}
+#contact .contact-form label{
+  display:block;
+}
+#contact .contact-form input,textarea{
+  padding:0.5rem;
+  width:100%;
+}
