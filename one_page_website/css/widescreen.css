@@ -1,0 +1,32 @@
+/* align icon to left of text of what we do section */
+#what .items .item{
+  display:flex;
+  text-align:left;
+}
+
+#what .items .item h3{
+  text-align:center;
+  padding-top:4rem;
+  margin-right:1rem;
+}
+
+/* positioning icons */
+#what .items .item i{
+  /* it will make space between icon and text */
+margin-right:1rem;
+/* this for making icon in center of background which have color and round shaped by border-radius */
+align-self:center;
+
+
+
+margin-top:-1rem;
+
+
+
+
+}
+
+/* it is for making map bigger */
+#contact .map{
+  flex:2;
+}
