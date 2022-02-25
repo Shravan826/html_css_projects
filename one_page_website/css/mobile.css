@@ -1,0 +1,101 @@
+/* targeting  */
+
+#what .items{
+  display:block;
+  padding:1rem;
+}
+/* for targetting every item or column of what we do section */
+#what .items .item{
+  display:flex;
+  text-align:left;
+}
+
+
+#what .items .item h3{
+  text-align:center;
+  padding: 0.7rem 1rem;
+}
+
+
+/* positioning icons */
+#what .items .item i{
+/* this for making icon in center of background which have color and round shaped by border-radius */
+align-self:center;
+}
+
+@media(max-width:500px){
+
+  /* navbar for mobile */
+  #navbar{
+    /* makes logo in 1st line and list items in 2nd line */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo{
+    text-align: center;
+    margin-bottom:0.5rem;
+  }
+
+  /* show list items spacy and clean */
+  #navbar ul{
+   padding:0.5rem;  
+  }
+
+  /* trnasperency of background image changed in size so fix it */
+  #showcase .showcase-content{
+    top:103px;
+  }
+
+
+  /* in mobile we want it to getting vertically stack all the things it will look much more cleaner */
+#what .items .item{
+  display:block;
+  align-items:center;
+  text-align:center
+}
+
+
+/* removing image */
+  #who {
+    display:block;
+  }
+  #who .who-img{
+    display:none; 
+  }
+
+
+  /* remove last client and make client image little bigger */
+  #clients .items img{
+    width:80%;
+  }
+  #clients .items div:last-child{
+    display:none;
+  }
+
+
+  /* contact section has to stack vertically */
+#contact{
+  display:block;
+}
+#contact .map{
+  height:300px;
+  border-top: 4px solid #333; 
+}
+}
+
+@media(max-height:568px){
+  #showcase .showcase-content{
+    margin-top:-1rem;
+    top:118px;
+  }
+  
+  .l-heading{
+    font-size:3rem;
+  }
+  .lead{
+    font-size:1rem;
+  }
+
+  
+}
